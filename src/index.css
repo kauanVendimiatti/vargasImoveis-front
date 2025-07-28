@@ -1,0 +1,70 @@
+
+/* 2. ESTILOS PERSONALIZADOS (Extraídos do seu index.html) */
+/* Aqui estão todas as regras de estilo que você tinha na sua tag <style>. */
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.sidebar-icon {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.active-nav {
+    background-color: #f97316;
+    color: white;
+}
+
+.nav-item:hover {
+    background-color: #fb923c;
+    color: white;
+}
+
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.modal-content {
+    max-height: 90vh; /* A altura máxima do modal inteiro */
+}
+
+/* Remove as setas de inputs do tipo 'number' */
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+    appearance: none;
+}
+
+/* Estilização da barra de rolagem do corpo do modal */
+#modal-body {
+    /* Para Firefox */
+    scrollbar-width: thin;
+    scrollbar-color: #4a5568 #2d3748;
+} 
+
+#modal-body::-webkit-scrollbar {
+    width: 8px;
+}
+
+#modal-body::-webkit-scrollbar-track {
+    background: #2d3748; /* Cor de fundo da trilha da rolagem */
+}
+
+#modal-body::-webkit-scrollbar-thumb {
+    background-color: #4a5568; /* Cor da barra de rolagem */
+    border-radius: 4px;
+}
+
+#modal-body::-webkit-scrollbar-thumb:hover {
+    background-color: #718096; /* Cor da barra ao passar o mouse */
+}
