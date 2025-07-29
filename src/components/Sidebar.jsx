@@ -4,6 +4,8 @@ import React from 'react';
 const navItems = [
     { key: 'dashboard', icon: '📊', label: 'Dashboard' },
     { key: 'imoveis', icon: '🏠', label: 'Imóveis' },
+    { key: 'pessoas', icon: '👥', label: 'Pessoas' },
+    { key: 'contratos', icon: '📄', label: 'Contratos' },
     { key: 'pagamentos', icon: '💰', label: 'Pagamentos' },
     { key: 'manutencao', icon: '🛠️', label: 'Manutenção' },
     // Adicione os outros itens do menu aqui

@@ -5,6 +5,8 @@ import Header from './components/Header';
 import ImoveisPage from './pages/ImoveisPage';
 import PagamentosPage from './pages/PagamentosPage';
 import ManutencaoPage from './pages/ManutencaoPage';
+import PessoasPage from './pages/PessoasPage';
+import ContratosPage from './pages/ContratosPage';
 // No futuro, você importará as outras páginas aqui
 
 function App() {
@@ -19,7 +21,10 @@ function App() {
         return <PagamentosPage />;
       case 'manutencao':
         return <ManutencaoPage />;
-      // Adicione os 'cases' para 'contratos', 'locadores', etc. aqui no futuro
+      case 'pessoas':
+        return <PessoasPage />;
+      case 'contratos':
+        return <ContratosPage />;
       default:
         return <div className="p-8 text-white">Selecione uma página</div>;
     }
